@@ -1,0 +1,52 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('Parroquia.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente para mejorar legibilidad del texto */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    position: relative; /* Asegura que el contenido de main no se solape con el fondo */
+    z-index: 1; /* Asegura que el contenido esté sobre el fondo */
+}
+
+.parroquia {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente para mejorar legibilidad del texto */
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.parroquia h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.parroquia p {
+    color: #666;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente para mejorar legibilidad del texto */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1; /* Asegura que el footer esté sobre el fondo */
+}
