@@ -1,5 +1,5 @@
 body {
-    background-image: url('IGM/Parroquia.webp'); /* Cambia esta ruta a la de tu imagen de fondo */
+    background-image: url('ruta/a/tu/imagen.jpg'); /* Cambia esta ruta a la de tu imagen de fondo */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -23,6 +23,7 @@ body {
     background-color: #007BFF;
     border: none;
     border-radius: 5px;
+    text-decoration: none; /* Para quitar el subrayado de los enlaces */
     cursor: pointer;
     transition: background-color 0.3s;
 }
