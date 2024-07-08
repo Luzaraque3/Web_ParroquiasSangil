@@ -4,14 +4,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    background-image: url('Parroquia.webp');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente para mejorar legibilidad del texto */
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -19,34 +15,62 @@ header {
 
 main {
     padding: 20px;
-    position: relative; /* Asegura que el contenido de main no se solape con el fondo */
-    z-index: 1; /* Asegura que el contenido esté sobre el fondo */
+    text-align: center;
 }
 
-.parroquia {
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente para mejorar legibilidad del texto */
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    padding: 20px;
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-.parroquia h2 {
-    color: #333;
-    margin-top: 0;
-}
-
-.parroquia p {
-    color: #666;
+.boton:hover {
+    background-color: #0056b3;
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente para mejorar legibilidad del texto */
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
     position: fixed;
     bottom: 0;
     width: 100%;
-    z-index: 1; /* Asegura que el footer esté sobre el fondo */
+}
+
+.parroquia-info {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.parroquia-info h2 {
+    color: #333;
+}
+
+.parroquia-info p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.parroquia-info img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
