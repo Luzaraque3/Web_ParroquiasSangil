@@ -8,6 +8,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
+    color: #ffffff;
 }
 
 .container {
@@ -30,4 +31,19 @@ body {
 
 .button:hover {
     background-color: #0056b3;
+}
+
+h1 {
+    color: #FFD700; /* Color dorado */
+}
+
+p {
+    color: #FFFFFF; /* Color blanco */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
 }
