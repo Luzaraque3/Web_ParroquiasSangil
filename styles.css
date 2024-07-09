@@ -1,5 +1,5 @@
 body {
-    background: url('IGM/Parroquia.webp') no-repeat center center fixed;
+    background: url('/IGM/Parroquia.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -9,6 +9,22 @@ body {
     font-family: Arial, sans-serif;
 }
 
+header {
+    background-color: #3498db;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+  }
+
+  main {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
 .button-container {
     display: flex;
     flex-direction: column;
