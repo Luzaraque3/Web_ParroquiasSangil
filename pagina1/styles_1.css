@@ -1,5 +1,5 @@
 body {
-    background: url('IGM/Santa_cruz.jpeg') no-repeat center center fixed;
+    background: url('/IGM/Santa_cruz.jpeg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@ body {
 }
 
 .button-container button {
-    background-color: #4CAF50;
+    background-color: #f82306;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -30,7 +30,7 @@ body {
 }
 
 .button-container button:hover {
-    background-color: #45a049;
+    background-color: #f70f07;
 }
 
 .content-container {
